@@ -1,4 +1,4 @@
-# structure-light
+# structure-light  
 3D reconstruction with Structure Light
 
 [![en](https://img.shields.io/badge/lang-en-blue.svg)](https://github.com/timbrist/structure-light/README.md)
@@ -13,5 +13,10 @@ From the optical path formula of the Young's double-slit experiment to explain w
 <b>Note that this repository doesn't containt any picture, compile and run doesn't work here. 
 But I believe if you have base background knowledge, you will easily use the code.</b>
 
-
-![Result](https://github.com/timbrist/structure-light/blob/main/imgs/Result3D.png)
+### EXPECTATION  
+Put your images into the folder "../res/imgs/origin/",
+Name the images as "./res/origin_imagees.xml" suggested.  
+![INPUT](https://github.com/timbrist/structure-light/blob/main/imgs/Input.png)
+  
+This is the 3d cloud points:  
+![OUTPUT](https://github.com/timbrist/structure-light/blob/main/imgs/Result3D.png)
