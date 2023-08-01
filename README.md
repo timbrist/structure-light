@@ -12,3 +12,6 @@ the mono-linear interpolation algorithm is used to improve the algorithm module 
 From the optical path formula of the Young's double-slit experiment to explain why the four phase shift maps can measure the distance of an object. For the reliability of the project, the entire system will use C++, OpenCV to process the image matrix. This makes the system running speed tend to be acceptable.  
 <b>Note that this repository doesn't containt any picture, compile and run doesn't work here. 
 But I believe if you have base background knowledge, you will easily use the code.</b>
+
+
+![Result](https://github.com/timbrist/structure-light/blob/main/imgs/Result3D.png)
