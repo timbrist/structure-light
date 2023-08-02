@@ -1,4 +1,4 @@
-#include"include/graycode.h"
+#include"graycode.h"
 
 using namespace std;
 using namespace cv;

@@ -1,4 +1,4 @@
-#include "include/triangulation.h"
+#include "triangulation.h"
 #include <iostream>
 #include <fstream>
 
