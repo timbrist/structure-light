@@ -1,5 +1,5 @@
-#include "mainwindow.h"
-#include <QApplication>
+// #include "mainwindow.h"
+// #include <QApplication>
 #include "include/chessboardcalib.h"
 #include "include/rectification.h"
 #include "include/structurelightimages.h"
@@ -17,14 +17,14 @@ int main(int argc, char *argv[])
 {
 
     //---------------1.camera calibation------------
-#if 0
+#if 1
     Chessboard cb(true, true);
     Calib *c = &cb;
     c->OneButtonCalib();         //在imagelist.h中修改标定图片目录， 内外参数目录
 #endif
 
     //---------------2.rectify image-----------------
-#if 0
+#if 1
     Rectification rect;
     rect.OneButtonRectify();
 #endif
@@ -88,9 +88,10 @@ int main(int argc, char *argv[])
     tl.TriangulationPoints(sli.P1, sli.P2, mc.leftpoints,mc.rightpoints);
     tl.Save("points2.txt");
 #endif
-    QApplication a(argc, argv);
-    MainWindow w;
-    w.show();
+    // QApplication a(argc, argv);
+    // MainWindow w;
+    // w.show();
 
-    return a.exec();
+    // return a.exec();
+    return 1;
 }
