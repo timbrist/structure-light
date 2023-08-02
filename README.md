@@ -5,7 +5,7 @@
 
 [![中文](https://img.shields.io/badge/lang-中文-red.svg)](https://github.com/timbrist/structure-light/blob/main/README.cn.md)
 
-<b>abstract </b>
+### abstract  
 In the three-dimensional reconstruction, in order to quickly and accurately obtain the surface depth information of the object to be measured in space, this paper proposes a three-dimensional measurement system based on the structured light coding pattern based on OpenCV and 6 gray coding +4 phase shift maps.  
 In order to reduce the repetitiveness of the research on the 3D reconstruction of the object surface, this paper combines the software design principles to implement the specific algorithm with C++ code.  
 the mono-linear interpolation algorithm is used to improve the algorithm module of stereo matching. In the structured light coding pattern, the coding structure of 6 Gray codes +4 phase shift maps is used, and the error rate of the 6 Gray codes is low. Using this structured light coding pattern, the stripes can be decoded without loss.  
