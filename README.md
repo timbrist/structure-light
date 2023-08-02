@@ -13,6 +13,17 @@ From the optical path formula of the Young's double-slit experiment to explain w
 <b>Note that this repository doesn't containt any picture, compile and run doesn't work here. 
 But I believe if you have base background knowledge, you will easily use the code.</b>
 
+### USAGE
+If You are interested in this project, I assume that you will install OpenCV3 (only test in version 3.xx).
+And Since you are using OpenCV, I guess you also using CMake;
+1. `git clone https://github.com/timbrist/structure-light.git`
+2. `cd structure-light`
+3. `mkdir build`
+4. `cd build`
+5. `cmake ..`
+6. `make -j4`
+7. `./main`
+
 ### EXPECTATION  
 Put your images into the folder "../res/imgs/origin/",
 Name the images as "./res/origin_imagees.xml" suggested.  
