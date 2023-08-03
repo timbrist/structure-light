@@ -1,5 +1,36 @@
 # 基于OpenCV的三维结构重建设计
-
+  
 ### 摘要   
-在三维重建中，为了快速且精确的得到空间待测物体的表面深度信息，本文提出一种基于OpenCV与6副格雷编码+4副相移图的结构光编码图案的三维测量系统。为了减少物体表面三维重建研究重复性，本文结合软件设计原则将具体算法用C++代码实现,提高三维重建的效率与精度。文中采用单线性插值算法来提高立体匹配的算法模块。结构光编码图案中使用6副格雷编码+4副相移图的编码结构，6副格雷编码出错率低，使用该结构光编码图案方式可以非常精确地对条纹进行解码。从杨氏双缝实验的光程公式来解释为什么4副相移图可以测量物体的距离。为了项目的可靠性，整个系统将采用C++，OpenCV开源计算机视觉库来处理图像矩阵。    
-<b>该仓库不提供对应的图片，所以达不到编译后即使用</b> 
+恭喜您发现这个宝藏仓库，聪明的您应该发现咱这代码结构比其他仓库干净好使。  
+我们提供一种基于OpenCV非接触的3D表面测量技术。  
+<b>仓库没有提供对应的照片</b>   
+如果你对图片如何从相机和投影仪中获取，可以看看我这个项目[hikvision-qt](https://github.com/timbrist/hikvision-qt).   
+如果你只是想要编译，运行， 我也可以把我之前的图片发给你
+
+##### 投影图案
+格雷码和相移图
+![Project](https://github.com/timbrist/structure-light/blob/main/imgs/ProjectImg.png)
+
+##### 双目相机标定
+标定过程使用的是棋盘格  
+(我们本来有圆点标定的，但是我弄丢那个板子了，所以有一个Calib.h用来做父类)  
+![ChessBoard](https://github.com/timbrist/structure-light/blob/main/imgs/ChessBoard.png)
+
+### 用法
+如果你看到了这个项目， 我猜你应该安装了OpenCV3(只在版本3.xx测试过)
+如果你用OpenCV，我想你应该对CMake不陌生了。
+1. `git clone https://github.com/timbrist/structure-light.git`
+2. `cd structure-light`
+3. `mkdir build`
+4. `cd build`
+5. `cmake ..`
+6. `make -j4`
+7. `./main`
+
+### EXPECTATION  
+把你的图片按照配置文件"./res/origin_images.xml"放在对应的目录里"../res/imgs/origin/"。
+![INPUT](https://github.com/timbrist/structure-light/blob/main/imgs/Input.png)
+  
+This is the 3d cloud points:  
+![OUTPUT](https://github.com/timbrist/structure-light/blob/main/imgs/Result3D.png)
+
