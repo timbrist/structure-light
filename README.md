@@ -6,11 +6,11 @@
 [![中文](https://img.shields.io/badge/lang-中文-red.svg)](https://github.com/timbrist/structure-light/blob/main/README.cn.md)
 
 ### ABSTRACT
-Congratulations for finding this repository, people as smart as you might notice that this repository has more clean structure, easy to use.  
-We provide an noncontact 3D surface measurement techniques using OpenCV.  
+Congratulations for finding this repository, people as smart as you might notice that this repository has cleanner, easier to use structure than others.  
+We provide noncontact 3D surface measurement techniques using OpenCV.  
 <b>Note that this repository doesn't containt any pictures</b>   
-If You are interested in taking picture from camera and project, You can have a look at my [hikvision-qt](https://github.com/timbrist/hikvision-qt).   
-If You just want to have compile and run, I can send you my previous pictures.   
+If you are interested in creating picture from camera with projector, you can have a look at my [hikvision-qt](https://github.com/timbrist/hikvision-qt).   
+
 
 ##### Projected Patterns
 The Projected Patterns contains gray codes and phase shift  
@@ -22,8 +22,8 @@ The Calibration process uses Chessboard for canmera parameters.
 ![ChessBoard](https://github.com/timbrist/structure-light/blob/main/imgs/ChessBoard.png)
 
 ### USAGE
-If You are interested in this project, I assume that you will install OpenCV3 (only test in version 3.xx).
-And Since you are using OpenCV, I guess you also using CMake;
+To use the code you need to install OpenCV3(only tested in version 3.xx),
+and also you need to install CMake to configure the code. 
 1. `git clone https://github.com/timbrist/structure-light.git`
 2. `cd structure-light`
 3. `mkdir build`
