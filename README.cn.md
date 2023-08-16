@@ -3,7 +3,8 @@
 ### 摘要   
 恭喜您发现这个宝藏仓库，聪明的您应该发现咱这代码结构比其他仓库干净好使。  
 我们提供一种基于OpenCV非接触的3D表面测量技术。  
-<b>仓库没有提供对应的照片</b>   
+<b>rected文件夹中的图片压缩过</b>   
+我关掉calibration和retification功能，添加了extrinsics和intrinsics文件，如此便可直接编译运行  
 如果你对图片如何从相机和投影仪中获取，可以看看我这个项目[hikvision-qt](https://github.com/timbrist/hikvision-qt).   
 
 

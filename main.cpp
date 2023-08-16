@@ -86,7 +86,7 @@ int main(int argc, char *argv[])
     //---------------5.triangulate---------------------------
     Triangulation tl(static_cast<int>(mc.leftpoints.size()));
     tl.TriangulationPoints(sli.P1, sli.P2, mc.leftpoints,mc.rightpoints);
-    tl.Save("points2.txt");
+    tl.Save("points.txt");
 #endif
     // QApplication a(argc, argv);
     // MainWindow w;

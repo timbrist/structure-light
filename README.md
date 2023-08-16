@@ -8,7 +8,9 @@
 ### ABSTRACT
 Congratulations for finding this repository, people as smart as you might notice that this repository has cleanner, easier to use structure than others.  
 We provide noncontact 3D surface measurement techniques using OpenCV.  
-<b>Note that this repository doesn't containt any pictures</b>   
+<b>test images in rected folder are compressed</b>   
+I turn off the calibration and retification function and add the test "extrinsics" and "intrinsics" files,
+so that you can run the minimum viable version after compiler&run.  
 If you are interested in creating picture from camera with projector, you can have a look at my [hikvision-qt](https://github.com/timbrist/hikvision-qt).   
 
 
