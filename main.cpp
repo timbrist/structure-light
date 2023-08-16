@@ -17,14 +17,14 @@ int main(int argc, char *argv[])
 {
 
     //---------------1.camera calibration------------
-#if 0
+#if 1
     Chessboard cb(true, true);
     Calib *c = &cb;
     c->OneButtonCalib();         //在imagelist.h中修改标定图片目录， 内外参数目录
 #endif
 
     //---------------2.rectify image-----------------
-#if 0
+#if 1
     Rectification rect;
     rect.OneButtonRectify();
 #endif
