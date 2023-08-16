@@ -31,6 +31,6 @@
 把你的图片按照配置文件"./res/origin_images.xml"放在对应的目录里"../res/imgs/origin/"。
 ![INPUT](https://github.com/timbrist/structure-light/blob/main/imgs/Input.png)
   
-This is the 3d cloud points:  
+使用geomagic studio 2015打开"point.txt"文件，显示如下。
 ![OUTPUT](https://github.com/timbrist/structure-light/blob/main/imgs/Result3D.png)
 

@@ -37,6 +37,8 @@ Put your images into the folder "../res/imgs/origin/",
 Name the images as "./res/origin_images.xml" suggested.  
 ![INPUT](https://github.com/timbrist/structure-light/blob/main/imgs/Input.png)
   
-This is the 3d cloud points:  
+This is the 3d point cloud:  
+Open the the "point.txt" with your favorite point cloud software.  
+here is the result that shows in " geomagic studio 2015 "  
 ![OUTPUT](https://github.com/timbrist/structure-light/blob/main/imgs/Result3D.png)
 
