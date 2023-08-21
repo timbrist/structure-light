@@ -8,9 +8,9 @@
 ### ABSTRACT
 Congratulations for finding this repository, people as smart as you might notice that this repository has cleanner, easier to use structure than others.  
 We provide noncontact 3D surface measurement techniques using OpenCV.  
-<b>test images in rected folder are compressed</b>   
-I turn off the calibration and retification function and add the test "extrinsics" and "intrinsics" files,
-so that you can run the minimum viable version after compiler&run.  
+<b>test images in "res/imgs" folder are compressed</b>   
+I cannot promise the quality of the point-cloud from compressed images, so the testdata is just used for 
+academic purpose. if you pursue high quality of the point-cloud, you should take the images with high resolution.   
 If you are interested in creating picture from camera with projector, you can have a look at my [hikvision-qt](https://github.com/timbrist/hikvision-qt).   
 
 

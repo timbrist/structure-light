@@ -3,8 +3,8 @@
 ### 摘要   
 恭喜您发现这个宝藏仓库，聪明的您应该发现咱这代码结构比其他仓库干净好使。  
 我们提供一种基于OpenCV非接触的3D表面测量技术。  
-<b>rected文件夹中的图片压缩过</b>   
-我关掉calibration和retification功能，添加了extrinsics和intrinsics文件，如此便可直接编译运行  
+<b>"res/imgs"文件夹中的图片压缩过</b>   
+压缩过的图片不保证点云图的质量， 所以测试数据只用于学术用途。 如果你最求完美点云图，还是用高质量的相机来拍摄吧。  
 如果你对图片如何从相机和投影仪中获取，可以看看我这个项目[hikvision-qt](https://github.com/timbrist/hikvision-qt).   
 
 
